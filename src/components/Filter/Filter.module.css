@@ -1,0 +1,11 @@
+.filter__section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.filter__text {
+    font-size: 18px;
+    line-height: 1.15;
+    margin-bottom: 5px;
+}

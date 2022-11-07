@@ -1,0 +1,35 @@
+.contact__list {
+    list-style: inside;
+}
+
+.list__item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.list__text {
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0;
+    margin-right: 12px;
+    padding: 0;
+}
+
+.list__text::before {
+    content: '\260E'" ";
+}
+
+.list__btn {
+    padding: 2px 6px;
+    border: solid 2px;
+    border-radius: 7px;
+    background-color:peachpuff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.list__btn:hover {
+    background-color: cadetblue;
+}

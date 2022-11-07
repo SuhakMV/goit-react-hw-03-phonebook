@@ -1,0 +1,39 @@
+.form__container {
+    display: flex;
+    width: 320px;
+    border: solid 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 175px;
+}
+
+.form__text {
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.form__item {
+    margin-bottom: 15px;
+}
+
+.form__btn {
+    padding: 2px 6px;
+    border: solid 2px;
+    border-radius: 7px;
+    background-color:peachpuff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.form__btn:hover {
+    background-color: cadetblue;
+}
